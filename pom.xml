@@ -14,7 +14,7 @@
 	<version>1.8.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>JEAF JSON API Project</name>
-	<description>JEAF JSON contains a set of classes that simplify usage of JSON (Jackson 2). This projects contains public API classes that belong to JEAF JSON.</description>
+	<description>JEAF JSON contains a set of classes that simplify usage of JSON (Jackson 3). This projects contains public API classes that belong to JEAF JSON.</description>
 	<url>https://www.anaptecs.de/jeaf</url>
 
 	<scm>

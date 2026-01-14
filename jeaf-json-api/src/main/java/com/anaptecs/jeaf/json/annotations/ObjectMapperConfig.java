@@ -15,16 +15,16 @@ import java.lang.annotation.Target;
 import com.anaptecs.jeaf.json.api.JSONTools;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.fasterxml.jackson.databind.DeserializationFeature;
-import com.fasterxml.jackson.databind.MapperFeature;
-import com.fasterxml.jackson.databind.SerializationFeature;
+import tools.jackson.databind.DeserializationFeature;
+import tools.jackson.databind.MapperFeature;
+import tools.jackson.databind.SerializationFeature;
 
 /**
  * Annotation can be used to configured the JSON object mapper according to your needs. If you do not define an explicit
  * configuration the default settings will be used which should fit for most needs.
- * 
+ *
  * For special date handling during JSON serialization please refer to: https://www.baeldung.com/jackson-serialize-dates
- * 
+ *
  * @author JEAF Development Team
  */
 @Retention(RUNTIME)
