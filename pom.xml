@@ -11,7 +11,7 @@
 
 	<groupId>com.anaptecs.jeaf.json</groupId>
 	<artifactId>jeaf-json-api-project</artifactId>
-	<version>2.0.0</version>
+	<version>2.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>JEAF JSON API Project</name>
 	<description>JEAF JSON contains a set of classes that simplify usage of JSON (Jackson 3). This projects contains public API classes that belong to JEAF JSON.</description>
@@ -21,7 +21,7 @@
 		<connection>scm:git:https://github.com/anaptecs/jeaf-json-api.git</connection>
 		<developerConnection>scm:git:https://github.com/anaptecs/jeaf-json-api.git</developerConnection>
 		<url>https://github.com/anaptecs/jeaf-json-api</url>
-		<tag>v2.0.0</tag>
+		<tag>HEAD</tag>
 	</scm>
 	
 	<distributionManagement>
